@@ -23,4 +23,12 @@ Example:
 python task_manager.py delete 1
 
 #File Used
-The tool saves your tasks in a file called tasks.txt so that they remain even when you close the program. Make sure this file is in the same directory as the script.
+The tool saves your tasks in a file called tasks.txt so that they remain even when you close the program. Make sure this file is in the same directory as the 
+
+
+
+#Summary of the Design:
+Storage: Tasks are stored in a text file (tasks.txt).
+Core Functions: Simple functions handle specific operations (adding, listing, completing, deleting tasks).
+CLI Interaction: Users interact with the tool by providing commands via the command line.
+Task Persistence: The tasks remain stored in the text file between different program runs, so they are not lost after the program ends.script.
