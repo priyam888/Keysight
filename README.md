@@ -1,7 +1,7 @@
 # Task Management CLI Tool
 This is a command-line tool for managing your to-do tasks. You can use it to add, view, complete, and delete tasks. The tasks are stored in a file called tasks.txt, so they will be saved between sessions.
 
-#How to Use
+# How to Use
 1. Add a Task
 To add a task, use the add command followed by the task description.
 Example:
@@ -22,12 +22,12 @@ To delete a task, use the delete command followed by the task number.
 Example:
 python task_manager.py delete 1
 
-#File Used
+# File Used
 The tool saves your tasks in a file called tasks.txt so that they remain even when you close the program. Make sure this file is in the same directory as the 
 
 
 
-#Summary of the Design:
+# Summary of the Design:
 Storage: Tasks are stored in a text file (tasks.txt).
 Core Functions: Simple functions handle specific operations (adding, listing, completing, deleting tasks).
 CLI Interaction: Users interact with the tool by providing commands via the command line.
